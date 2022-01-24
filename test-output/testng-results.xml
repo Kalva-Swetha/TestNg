@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Mid value: 50]]>
+    </line>
+    <line>
+      <![CDATA[Max value: 100]]>
+    </line>
+    <line>
+      <![CDATA[Min value: 0]]>
+    </line>
+    <line>
+      <![CDATA[Min value: 80]]>
+    </line>
+    <line>
+      <![CDATA[Min value: 30]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-30T16:51:50 IST" name="Default suite" finished-at="2021-05-30T16:52:06 IST" duration-ms="16631">
+    <groups>
+    </groups>
+    <test started-at="2021-05-30T16:51:50 IST" name="Default test" finished-at="2021-05-30T16:52:06 IST" duration-ms="16631">
+      <class name="activities.Activity10">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:activities.Activity10@73700b80]" started-at="2021-05-30T16:51:50 IST" name="beforeClass" finished-at="2021-05-30T16:51:59 IST" duration-ms="9483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="sliderToMiddleTest()[pri:1, instance:activities.Activity10@73700b80]" started-at="2021-05-30T16:51:59 IST" name="sliderToMiddleTest" finished-at="2021-05-30T16:52:00 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Mid value: 50]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sliderToMiddleTest -->
+        <test-method signature="sliderToMaxTest()[pri:2, instance:activities.Activity10@73700b80]" started-at="2021-05-30T16:52:00 IST" name="sliderToMaxTest" finished-at="2021-05-30T16:52:03 IST" duration-ms="3519" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Max value: 100]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sliderToMaxTest -->
+        <test-method signature="sliderToMinTest()[pri:3, instance:activities.Activity10@73700b80]" started-at="2021-05-30T16:52:03 IST" name="sliderToMinTest" finished-at="2021-05-30T16:52:04 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Min value: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sliderToMinTest -->
+        <test-method signature="sliderTo80Test()[pri:4, instance:activities.Activity10@73700b80]" started-at="2021-05-30T16:52:04 IST" name="sliderTo80Test" finished-at="2021-05-30T16:52:04 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Min value: 80]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sliderTo80Test -->
+        <test-method signature="sliderTo30Test()[pri:5, instance:activities.Activity10@73700b80]" started-at="2021-05-30T16:52:04 IST" name="sliderTo30Test" finished-at="2021-05-30T16:52:05 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Min value: 30]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sliderTo30Test -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:activities.Activity10@73700b80]" started-at="2021-05-30T16:52:05 IST" name="afterClass" finished-at="2021-05-30T16:52:06 IST" duration-ms="1752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- activities.Activity10 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
